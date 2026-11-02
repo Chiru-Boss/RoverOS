@@ -1,0 +1,15 @@
+{
+  "serial": {
+    "port_linux": "/dev/ttyUSB0",
+    "port_windows": "COM6",
+    "baud_rate": 115200,
+    "timeout_seconds": 2
+  },
+  "servos": {
+    "pan_signal_pin": "D5",
+    "tilt_signal_pin": "D6",
+    "logical_min_degrees": -90,
+    "logical_max_degrees": 90,
+    "bench_test_limit_degrees": 30
+  }
+}
